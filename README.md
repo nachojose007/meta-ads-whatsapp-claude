@@ -7,7 +7,7 @@ peluquería, inmobiliaria) maneje sus anuncios de Meta desde Claude Code, con un
 No es para tiendas online ni campañas de ventas con píxel. Es para negocios donde la venta
 se cierra charlando.
 
-📘 **Manual paso a paso (desde cero):** https://claude.ai/artifact/K2CAb7emzohJuN5nVKz4E4 (también está en `manual/manual.html`)
+📘 **Manual paso a paso (desde cero):** https://manual-meta-whatsapp-mu.vercel.app (el código está en `web/index.html`)
 
 ## Qué trae
 
