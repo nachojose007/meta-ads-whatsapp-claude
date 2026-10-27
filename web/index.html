@@ -134,6 +134,7 @@ td code{white-space:nowrap}
 footer{margin-top:64px;padding-top:24px;border-top:1px solid var(--line);font-size:.9rem;color:var(--muted);display:grid;gap:6px}
 .win-only{display:none}
 body.is-win .win-only{display:block}
+body.is-win span.win-only{display:inline}
 body.is-win .mac-only{display:none}
 @media (prefers-reduced-motion:reduce){.breath i{animation:none}.bar div{transition:none}}
 </style>
@@ -276,17 +277,24 @@ body.is-win .mac-only{display:none}
 <section class="stage" id="arranque">
   <div class="stage-num"><span>5</span></div>
   <div class="stage-body">
-    <div class="stage-head"><span class="time">20 min</span><h2>El primer arranque</h2></div>
+    <div class="stage-head"><span class="time">30 min</span><h2>El primer arranque: una charla</h2></div>
     <ol class="steps">
       <li class="step"><input type="checkbox" id="c5-1"><div class="step-text"><strong>Escribí el comando</strong>
         <div class="cmd"><pre>/arranque</pre><button type="button">copiar</button></div>
-        <details class="see"><summary>Qué va a pasar</summary><div>
-          <p>1. Verifica que ve tu cuenta de Meta.</p>
-          <p>2. Te hace preguntas de a pocas: precios, cuánto te deja un alumno, de cada 10 que escriben cuántos se anotan.</p>
-          <p>3. Calcula cuánto podés pagar como máximo por conversación.</p>
-          <p>4. Lee tus campañas de los últimos 7 días y te arma un diagnóstico con los próximos pasos numerados.</p>
+        <span class="muted">Antes de tocar Meta, Claude te entrevista para conocer el estudio. Es una charla de 15 a 20 minutos.</span></div></li>
+      <li class="step"><input type="checkbox" id="c5-2"><div class="step-text"><strong>Contestá hablando</strong>
+        <span>Te pregunta de a una cosa. Respondé como si mandaras un audio de WhatsApp: tocá el micrófono de la app o usá el dictado de la compu (<span class="mac-only">Mac: apretá dos veces la tecla <b>Fn</b></span><span class="win-only">Windows: <b>Win + H</b></span>). No hace falta orden ni números exactos: si no sabés algo, te ayuda a estimarlo.</span>
+        <details class="see"><summary>Qué te va a preguntar</summary><div>
+          <p><b>La foto de hoy.</b> Cuántos alumnos tenés, cuántas clases, qué horarios se llenan y cuáles no, qué pasó este último año.</p>
+          <p><b>A dónde querés llegar.</b> Cuántos alumnos, para cuándo, por qué ese número y qué te frena.</p>
+          <p><b>Cómo llega la gente.</b> Boca a boca, Instagram, la puerta. Cómo es un chat típico de punta a punta.</p>
+          <p><b>Tus alumnos.</b> Quién es el alumno ideal, por qué viene, por qué se va, qué le cuenta a un amigo del estudio.</p>
+          <p><b>La plata.</b> Precios, cuánto se queda un alumno, de cada 10 que escriben cuántos se anotan, cuánto querés invertir.</p>
+          <p><b>WhatsApp y lo que ya probaste.</b> Quién contesta y cuándo, anuncios anteriores, material que tenés.</p>
+          <p>Cada tanto te resume lo que entendió para que lo corrijas. Si te tenés que ir, guarda todo y retoman con <code>/arranque</code>.</p>
         </div></details></div></li>
-      <li class="step"><input type="checkbox" id="c5-2"><div class="step-text"><strong>Validá la vara</strong><span>El número que más importa. Probalo acá abajo con tus datos.</span></div></li>
+      <li class="step"><input type="checkbox" id="c5-3"><div class="step-text"><strong>Revisá el resumen y la vara</strong><span>Al final te devuelve el negocio en 10 líneas, cuántos alumnos nuevos por mes necesitás para tu objetivo y cuánto podés pagar por conversación. Probalo acá abajo con tus datos.</span></div></li>
+      <li class="step"><input type="checkbox" id="c5-4"><div class="step-text"><strong>Recién ahí, Meta</strong><span>Lee tus campañas de los últimos 7 días y te arma un diagnóstico con los próximos pasos numerados. No cambia nada sin tu "sí".</span></div></li>
     </ol>
 
     <div class="box" aria-labelledby="calc-t">

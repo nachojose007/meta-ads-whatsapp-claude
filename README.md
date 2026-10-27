@@ -33,8 +33,11 @@ se cierra charlando.
 /arranque
 ```
 
-Claude te va a hacer unas preguntas sobre tu negocio, va a leer tu cuenta de Meta y te va a
-dar un diagnóstico con los próximos pasos.
+Claude te entrevista para conocer el estudio: te pregunta de a una cosa (cómo está hoy, a dónde
+querés llegar, cómo te llega la gente, la plata, el WhatsApp) y vos contestás **hablando**, con el
+micrófono de la app o el dictado de la compu (Mac: Fn dos veces · Windows: Win + H). Con eso arma
+la ficha del negocio, calcula cuánto podés pagar por conversación, lee tu cuenta de Meta y te da
+un diagnóstico con los próximos pasos.
 
 ## El día a día
 
