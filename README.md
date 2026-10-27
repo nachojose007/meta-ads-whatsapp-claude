@@ -7,7 +7,7 @@ peluquería, inmobiliaria) maneje sus anuncios de Meta desde Claude Code, con un
 No es para tiendas online ni campañas de ventas con píxel. Es para negocios donde la venta
 se cierra charlando.
 
-📘 **Manual paso a paso (desde cero):** _ver el link que te pasaron junto con este repo_
+📘 **Manual paso a paso (desde cero):** https://claude.ai/artifact/K2CAb7emzohJuN5nVKz4E4 (también está en `manual/manual.html`)
 
 ## Qué trae
 
